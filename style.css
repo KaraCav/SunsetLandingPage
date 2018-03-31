@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+html, body{
+  margin:0px;
+  padding: 0px;
+  height:100%;
+  width: 100%;
+}
+
+.intro{
+  height:100%;
+  width:100%;
+  margin:auto;
+  background: url('./dawn 2.jpg') no-repeat 50% 50%;
+  display:table;
+  top:0;
+  background-size: cover;
+}
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+width:100%;
+max-width: none;
+}
+.content{
+  max-width:500px;
+  margin:0 auto;
+}
+.content h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  color:#f3f3f3;
+}
+
+.button{
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+/* .video-holder {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+} */
+@media screen and (max-width:600px){
+  .content h1{
+    font-size:50px;
+  }
+  .button{ font-size:30px;}
+}
