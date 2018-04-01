@@ -11,7 +11,7 @@ html, body{
   height:100%;
   width:100%;
   margin:auto;
-  background: url('./pictures/dawn 2.jpg') no-repeat 50% 50%;
+  background: url('./images/dawn 2.jpg') no-repeat 50% 50%;
   display:table;
   top:0;
   background-size: cover;
@@ -51,12 +51,7 @@ text-transform: uppercase;}
   padding-bottom: 56.25%;
   height: 0;
 } */
-@media screen and (max-width:600px), (orientation: portrait){
-  .content h1{
-    font-size:70px;
-  }
-  .button{ font-size:50px;}
-}
+
 .button:hover{
   color: #ebebebe3;
   border: 2px solid #ebebeb;
@@ -93,6 +88,28 @@ margin: auto;
 }
 hr{
   color: black;
-  height:5px;
-  width: 5px;
+  width: 60vw;
+  margin-bottom: 4vh;
+}
+@media screen and (max-width:600px), (orientation: portrait){
+  .content h1{
+    font-size:70px;
+  }
+  .button{ font-size:50px;}
+  .mainBody1{
+    flex-direction: column;
+    font-size: 1.3em;
+      box-shadow: 1vw 1vh 15px #6799a3;
+
+  }
+  .description{
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .mainImg{
+ width:74vw;
+ padding-left:4vw;
+  }
 }
