@@ -11,7 +11,7 @@ html, body{
   height:100%;
   width:100%;
   margin:auto;
-  background: url('./dawn 2.jpg') no-repeat 50% 50%;
+  background: url('./pictures/dawn 2.jpg') no-repeat 50% 50%;
   display:table;
   top:0;
   background-size: cover;
@@ -23,28 +23,76 @@ width:100%;
 max-width: none;
 }
 .content{
-  max-width:500px;
-  margin:0 auto;
+  max-width:60vw;
+  margin: 0 auto;
+  text-align: center;
 }
 .content h1{
   font-family: 'Raleway', sans-serif;
-  font-size: 32px;
+  font-size: 50px;
   color:#f3f3f3;
+  text-shadow: 0px 0px 300px #444;
+  /* size:500%; */
+  padding-bottom: 3vh;
 }
 
 .button{
   font-family: 'Oswald', sans-serif;
-  font-size: 22px;
-}
+  font-size: 20px;
+  border: 3px solid hsl(192, 32%, 44%);
+  color:#41737e;
+  padding:8px 15px;
+  border-radius: 9px;
+text-decoration:none;
+text-transform: uppercase;}
 
 /* .video-holder {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
 } */
-@media screen and (max-width:600px){
+@media screen and (max-width:600px), (orientation: portrait){
   .content h1{
-    font-size:50px;
+    font-size:70px;
   }
-  .button{ font-size:30px;}
+  .button{ font-size:50px;}
+}
+.button:hover{
+  color: #ebebebe3;
+  border: 2px solid #ebebeb;
+}
+.mainHeading{
+    text-align: center;
+      font-family: 'Raleway', sans-serif;
+      width: 80vw;
+margin: auto;
+}
+.mainBody1{
+  width: 88vw;
+  text-align: center;
+  margin:1vw;
+  padding:3vw;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1vw 0vh 10px #6799a3;
+}
+.bodyText{
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  padding:1vw;
+  margin-left:1vw;
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainImg{
+  width:40vw;
+}
+.description{
+  width:50vw;
+}
+hr{
+  color: black;
+  height:5px;
+  width: 5px;
 }
